@@ -1,0 +1,9 @@
+Gradient Descent: the way that neural networks minimize the cost function to train and improve model accuracy
+
+You find the gradient of the cost function, and you have to minimize the cost. 
+
+It uses calculus 3 to take the biases and takes vectors 
+
+it finds where the derivatives are positive and negative, to find where there is a minimum, so then it optimizes the weights to their optimal values
+
+But, this is multivariable calculus, so you dont take derivatives, you take gradients, and thus find the values that minimize cost

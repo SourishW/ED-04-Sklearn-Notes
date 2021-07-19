@@ -1,0 +1,22 @@
+https://scikit-learn.org/stable/modules/neighbors.html (see for pictures)
+
+This is a classifying and regression model
+It seperates the data points into regions
+
+Any datapoints in each region will have the appropriate labels
+
+The axis represent the features, and we can have as many features/dimensions as we want
+
+How Nearest neibhors work: given the number of neighbors, if a majority of the n nearest numbers have a specific label relative to a specific location, then that location will be classified as where those features lie
+
+A greater value is better when there is a large number of instances/data
+
+If there is a big dataset, we can use a higher k
+If there is a smaller dataset, we use a smaller k
+
+It is advised to use an odd number k.
+
+Weights can be uniform, or can be weighted by distance (closer data points are given more importance). This makes it more sensitive
+
+
+

@@ -1,0 +1,15 @@
+The number of features means the number of dimensions on the graph
+
+If there is a 3D graph, then there will be an instance like (x, y, z)
+
+If there are a lot of datapoints centered around the same area with the same label, that is a cluster.
+
+Clustering is where a computer figures out where any point is, and what it corresponds to accordingly given where it falls
+
+KMeans is a type of clustering, where the computer figures out the clusters
+
+It uses centroids: Two random points on the graph are generated, and the distance from each points are measured. The line that is equidistant from both points will seperate two regions, from which all of the x values and y values will be averaged to find a point in the region which will be a cluster, and this will be repeated for many many centroids, until regions are created where there will be the corresponding points
+
+The algorithm will not know the labels, only create a cluster
+
+The planes that seperate clusters are called hyperplanes

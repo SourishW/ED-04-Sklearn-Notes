@@ -1,0 +1,21 @@
+Support Vector Machine
+
+Effective in high dimensional spaces (many features)
+There are many kernel functions
+
+It can be used for classification and regression
+
+How it works:
+
+Given a lot of data points, the SVM will differentiate between different points by drawing a hyperplane
+
+If the space is 2D, then it will simply draw a line, and if 3D it will be a 2D plane
+
+Support vectors are selected, and distance from them to the plane is calculated. It optimizes the line by making a largest margin area space to ensure that they are properly seperated
+
+Different types of kernels can be used, such as polynomial, linear, RBF, etc
+Kernels: function that is used to increase the dimensions.
+
+It uses a function f(x, y) = (x,y,z), which allows for characterization of more types of points by adding another dimension of data. It computes z, which seperates the two features, and then establishes a 3d hyperplane between them in a 3d graph
+
+https://scikit-learn.org/stable/modules/svm.html

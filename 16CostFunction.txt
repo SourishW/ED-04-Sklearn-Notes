@@ -1,0 +1,20 @@
+Loss functions
+
+For neural networks, there is an input layer with neurons, and there was a bunch of connections with hidden layers that are connected. 
+
+The way it trains is by adjusting the weights and biases
+
+If we, for example, have 1000 training data of handwritten digits that have 28x28 pixels each and instance would help solve for the weights and the bias
+
+During the training process, if the answer is wrong, then the cost function comes in. The cost function tells the neural network how bad it did, and this is the thing that the neural network is trying to minimize
+
+Commonly used cost/loss function is the mean squared error function:
+
+(actual - predicted) ^ 2
+
+For all of the outputs, the function takes the sum of all of the cost functions, and finds an average, so:
+
+sum of (actual - predicted)^2 * (1 / n)
+
+The goal of the neural network is to detect patterns
+

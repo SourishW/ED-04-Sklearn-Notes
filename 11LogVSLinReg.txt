@@ -1,0 +1,10 @@
+Consider a set of data, where there is a linear regression between the points, and the points are 2D
+
+The regression line would have an r^2 value that indicates how accurate the line represents the data points
+
+Its a simple y = mx +b line
+
+however, if there are two sub trends, the linear regression line would draw straight through them, not caring about the difference in trends
+
+Whereas, logistic regression would return a sigmoid function that is like a titration curve, and passes through both. It looks like an S, and it is y = 1 / (1 + e^-x)
+

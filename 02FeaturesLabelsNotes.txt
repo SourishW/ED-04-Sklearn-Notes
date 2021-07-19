@@ -1,0 +1,11 @@
+Features: are the independent variables that act as an input to the machine learning model to determine the correct output
+N of Features: Dimensions
+Features are called attributes, or inputs
+Labels: Output, or the dependent variable
+N of row: number of instances
+
+Features: X, Labels: y
+
+To compete the input, the features must be numbers from -1 to 1, and will be conditioed using preprocessing
+
+Features are the inputs, then a model is used with a machine learning algorithm, then it will be determined which label is appropriate

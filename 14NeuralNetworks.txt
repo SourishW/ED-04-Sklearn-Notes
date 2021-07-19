@@ -1,0 +1,32 @@
+The goal of neural networks: to find patterns
+
+There is an input, and output:
+
+The inputs come in in the form of nodes, and the inputs all have weights that add to create a weighted average for the next layer
+
+The added average creates a summation, then there is an activation function f(x), and the summation is put into the activation function to give the output
+
+Given 4 inputs, x1, x2, x3, x4 and weights w1, w2, w3, w4, the summation will be x1w1 + x2w2 + x3w3 + x4w4, which we will call big X. 
+
+The y output will be some activation function y = f(X)
+
+When training the program, it will change and adapt the weights
+
+Biases: 
+
+there will be a lot of biases added to the summation, and the new summation will be:
+
+(b1 + b2 + b3 + b4) +X = A
+
+so, y1 = f(A)
+
+Throughout training, the neural networks will be optimizing the inputs, weights, and biases
+
+All of it is called a simple percepetron, and a neural network has many many of them. 
+
+Neural networks usually have a lot of hidden layers to increase the dimensionality of the data, and add a level of complexity to the data
+
+With one hidden layer, for example, you will have two layers of activation functions, which can individually be a linear function, sigmoid function, whatever
+
+Neural network tasks: classifications such as image recognition, text recognition, language recognition, regression, clustering, create chatbots, create AI in robotics, used in a wide variety of domains
+

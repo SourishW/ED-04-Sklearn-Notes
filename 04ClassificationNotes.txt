@@ -1,0 +1,8 @@
+Classification: finds similar features that are associated with a label, and then classifies them
+
+Lets say we have 2 features, and 3 labels:
+- n features = n dimensions
+
+Different clusters of points will be separated as different labels
+
+

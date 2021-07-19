@@ -1,0 +1,7 @@
+Convolutional neural network:
+
+There is a convolutional layer in between, which is a normal layer in between, except the layer adds a filter, which makes a difference. It allows the layer to detect patterns. 
+
+They way it does it, is it does a dot product with another matrix that it has, moving to the right every time. 
+
+The convolutional layer will apply filters to various parts of the image to detect patterns and differences with the images

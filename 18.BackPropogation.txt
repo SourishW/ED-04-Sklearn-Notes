@@ -1,0 +1,11 @@
+Backpropagation:
+
+taking the negative of the gradient will tell you how much to move and minimize the cost
+
+backpropagation is the function that changes certain weights in order to optimize cost benefit
+
+Bacpropagation is taking the information in the output layer to calculate the error on certain weights looking backwards
+
+You use the previous activation function as a composition of functions, take the derivative of cost/error with respect to weights with chain rule 
+
+The derivatives are multiplied by the computer to find the lowest cost function. 

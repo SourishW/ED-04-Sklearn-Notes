@@ -1,0 +1,13 @@
+Goal of modeling: to fit on data that we didnt previously have
+
+This is why we have training and testing data, to train the model on data that is unseen, and to then test the data
+
+When testing the model, we want the highest accuracy possible
+
+There are two possibilities that might occur:
+
+Underfitting: When the model doesn't pick up on the subtleties of the data. Thus, there is a high variance on both the training and the testing data, and the model is too simple
+
+Overfitting: when the model is too specific and complicated to the training data, and the model is too complicated. So, the model will have a low variance on the training data, and a high variance on the testing data. 
+
+Perfect fit: When the model has a low variance on the training and the testing data
